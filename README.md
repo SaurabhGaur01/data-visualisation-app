@@ -1,6 +1,6 @@
 # Data Visualisation Application - React/Redux/Thunk
 
-This application will read the JSON file as REST API and plot the data on the screen in the form of table and chart.
+This application will read the JSON file as REST API and plot the data on the screen in the form of table and chart along with some filtering capabilities.
 
 This application utilises - React, Redux, Thunk, Jest & Enzyme Testing, Bootstrap, Material UI and React-Charts(chart.js).
 
