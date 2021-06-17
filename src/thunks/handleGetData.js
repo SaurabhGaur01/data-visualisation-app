@@ -8,7 +8,7 @@ import { getTransformedResponse } from '../utils/transformedUtils';
 const handleGetData = () => async (dispatch) => {
     dispatch(setLoadingInProgress());
     try {
-        const { data: { features }} = await axios.get('./boat_ramps.geojson');
+        const { data: { features }} = await axios.get(process.env.PUBLIC_URL +'/boat_ramps.geojson');
         const transformedResponse = getTransformedResponse(features);
         dispatch(setFeatures(transformedResponse));
         dispatch(setFilteredFeatures(transformedResponse));
