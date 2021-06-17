@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Filter Component should render correctly 1`] = `
+<div
+  className="filter-by mr-5"
+>
+  <span
+    className="filter-heading pr-2"
+  >
+    Filter By
+  </span>
+  <select
+    className="input"
+    id="filter-by"
+    name="filter-by"
+    onChange={[Function]}
+    value="mockFilterBy"
+  >
+    <option
+      value="construction"
+    >
+      Material
+    </option>
+    <option
+      value="category"
+    >
+      Size
+    </option>
+    <option
+      value="none"
+    >
+      None
+    </option>
+  </select>
+</div>
+`;

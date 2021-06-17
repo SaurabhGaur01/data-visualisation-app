@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConstructionMaterial Component should render correctly 1`] = `
+<div
+  className="chart-container"
+>
+  <Bar
+    data={
+      Object {
+        "datasets": Array [
+          Object {
+            "backgroundColor": Array [
+              "rgba(255, 99, 132)",
+              "rgba(54, 162, 235)",
+              "rgba(255, 206, 86)",
+              "rgba(75, 192, 192)",
+              "rgba(153, 102, 255)",
+              "rgba(255, 159, 64)",
+            ],
+            "borderWidth": 2,
+            "data": Array [
+              0,
+              1,
+              0,
+            ],
+            "label": "# of Ramps per size category",
+          },
+        ],
+        "labels": Array [
+          "[0, 50]",
+          "[50, 200]",
+          "[200, 526]",
+        ],
+      }
+    }
+    getElementAtEvent={[Function]}
+    options={
+      Object {
+        "maintainAspectRatio": false,
+        "responsive": true,
+        "scales": Object {
+          "xAxes": Array [
+            Object {
+              "barPercentage": 0.4,
+            },
+          ],
+          "yAxes": Array [
+            Object {
+              "ticks": Object {
+                "beginAtZero": true,
+              },
+            },
+          ],
+        },
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ConstructionMaterial Component should render correctly when filterBy value is construction 1`] = `
+<div
+  className="chart-container"
+>
+  <Bar
+    data={
+      Object {
+        "datasets": Array [
+          Object {
+            "backgroundColor": Array [
+              "rgba(255, 99, 132)",
+              "rgba(54, 162, 235)",
+              "rgba(255, 206, 86)",
+              "rgba(75, 192, 192)",
+              "rgba(153, 102, 255)",
+              "rgba(255, 159, 64)",
+            ],
+            "borderWidth": 2,
+            "data": Array [
+              1,
+            ],
+            "label": "# of Ramps per construction material",
+          },
+        ],
+        "labels": Array [
+          "mockMaterial",
+        ],
+      }
+    }
+    getElementAtEvent={[Function]}
+    options={
+      Object {
+        "maintainAspectRatio": false,
+        "responsive": true,
+        "scales": Object {
+          "xAxes": Array [
+            Object {
+              "barPercentage": 0.4,
+            },
+          ],
+          "yAxes": Array [
+            Object {
+              "ticks": Object {
+                "beginAtZero": true,
+              },
+            },
+          ],
+        },
+      }
+    }
+  />
+</div>
+`;

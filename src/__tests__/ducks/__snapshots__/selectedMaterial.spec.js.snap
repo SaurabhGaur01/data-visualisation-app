@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`selectedMaterial Duck Tests Action Generator setSelectedMaterial should match the snapshot 1`] = `
+Object {
+  "type": "modules/data-visualisation-app/SET_SELECTED_MATERIAL",
+  "value": "mockValue",
+}
+`;

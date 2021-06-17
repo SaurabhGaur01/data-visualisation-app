@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BoatRamps Component should render correctly 1`] = `
+<WithStyles(ForwardRef(Paper))
+  className="mt-3"
+>
+  <WithStyles(ForwardRef(TableContainer))>
+    <WithStyles(ForwardRef(Table))
+      aria-label="enhanced table"
+      aria-labelledby="tableTitle"
+      className="table-content"
+      size="small"
+    >
+      <BoatRampsHeader />
+      <Connect(BoatRampsBody)
+        page={0}
+        rowsPerPage={10}
+      />
+    </WithStyles(ForwardRef(Table))>
+    <WithStyles(ForwardRef(TablePagination))
+      component="div"
+      count={1}
+      onChangePage={[Function]}
+      onChangeRowsPerPage={[Function]}
+      page={0}
+      rowsPerPage={10}
+      rowsPerPageOptions={
+        Array [
+          10,
+          25,
+        ]
+      }
+    />
+  </WithStyles(ForwardRef(TableContainer))>
+</WithStyles(ForwardRef(Paper))>
+`;

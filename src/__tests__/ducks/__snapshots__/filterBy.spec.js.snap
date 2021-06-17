@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`filterBy Duck Tests Action Generator setFilterBy should match the snapshot 1`] = `
+Object {
+  "type": "modules/data-visualisation-app/SET_FILTER_BY",
+  "value": "mockValue",
+}
+`;

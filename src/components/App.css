@@ -1,0 +1,28 @@
+.table-content {
+  min-width: 750px;
+}
+
+.card-container {
+  width: 600px;
+}
+
+.filter-by {
+  float: right;
+}
+
+.filter-heading {
+  font-weight: 800;
+}
+
+.chart-container {
+  width: 100%;
+  height: 410px;
+}
+
+thead > tr {
+  background: antiquewhite;
+}
+
+tr:nth-child(even) {
+  background: #ccc;
+}

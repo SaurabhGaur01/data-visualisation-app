@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`features Duck Tests Action Generator clearFeatures should match the snapshot 1`] = `
+Object {
+  "type": "modules/data-visualisation-app/CLEAR_FEATUREs",
+}
+`;
+
+exports[`features Duck Tests Action Generator setFeatures should match the snapshot 1`] = `
+Object {
+  "data": "mockValue",
+  "type": "modules/data-visualisation-app/SET_FEATURES",
+}
+`;
